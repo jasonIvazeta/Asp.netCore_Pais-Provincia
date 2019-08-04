@@ -9,6 +9,7 @@ namespace WebApiPais.Models
 {
     public class Provincia
     {
+        //model
         public int id { get; set; }
         public string nombre { get; set; }
         [ForeignKey("Pais")]
